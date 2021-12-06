@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/system">
+
+        <Preference
+            app:key="network_setting"
+            app:summary="@string/open_network_setting"
+            app:title="@string/home_network_setting"></Preference>
+        <Preference
+            app:key="general_setting"
+            app:title="@string/home_general_setting" />
+
+        <Preference
+            app:key="picture_sound"
+            app:title="@string/home_picture_sound" />
+
+        <Preference
+            app:key="system_settings"
+            app:title="@string/system_settings" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/other">
+        <Preference
+            app:key="signal_source"
+            app:title="@string/home_signal_source" />
+        <Preference
+            app:key="back_home"
+            app:title="@string/back_home" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

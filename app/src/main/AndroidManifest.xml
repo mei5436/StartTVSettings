@@ -12,31 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StartSettings">
         <activity
+            android:name="com.bestv.startsettings.OpenSettingsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".home.HomeActivity"
             android:exported="true"
             android:label="@string/title_activity_home"
-            android:theme="@style/Theme.StartSettings.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.StartSettings.NoActionBar"></activity>
 
         <service
             android:name=".HomeTransferService"
             android:enabled="true"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
-                <action android:name="tv.fun.intent.action.ACTION_HOME"></action>
+                <action android:name="tv.fun.intent.action.ACTION_HOME" />
             </intent-filter>
         </service>
-
-        <activity
-            android:name="com.bestv.startsettings.SettingsActivity"
-            android:exported="true"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

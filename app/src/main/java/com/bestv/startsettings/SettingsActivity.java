@@ -22,12 +22,14 @@ private RecyclerView rv;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_activity);
-        rv = findViewById(R.id.settings);
+//        rv = findViewById(R.id.settings);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle(R.string.title_activity_settings);
         }
-        rv.setLayoutManager(new LinearLayoutManager(this));
-        rv.setAdapter(new MyAdapter(this));
+//        getSupportFragmentManager().
+//        rv.setLayoutManager(new LinearLayoutManager(this));
+//        rv.setAdapter(new MyAdapter(this));
     }
 }
