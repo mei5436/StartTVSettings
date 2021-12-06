@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">StartSettings</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="home_network_setting">网络设置</string>
+
+    <string name="home_general_setting">通用设置</string>
+    <string name="home_network_diagnosis">网络诊断</string>
+    <string name="home_help">玩转电视</string>
+    <string name="home_network_speed">网络测速</string>
+    <string name="home_picture_sound">图像与声音</string>
+    <string name="home_about">关于</string>
+    <string name="home_signal_source">信号源</string>
+    <string name="home_assistant_setting">手机助手</string>
+    <string name="popbar_app_text">我的应用</string>
+    <string name="home_popbar_history">播放记录</string>
+    <string name="popbar_desktop_text">智能桌面</string>
+    <string name="popbar_storage_text">U盘</string>
+    <string name="popbar_message_text">消息中心</string>
+    <string name="popbar_settings_text">设置</string>
+    <string name="system_settings">System Settings</string>
+    <string name="back_home">Go Home</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
