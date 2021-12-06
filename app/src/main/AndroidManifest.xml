@@ -21,7 +21,11 @@
         <service
             android:name=".HomeTransferService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="tv.fun.intent.action.ACTION_HOME"></action>
+            </intent-filter>
+        </service>
 
         <activity
             android:name="com.bestv.startsettings.SettingsActivity"
