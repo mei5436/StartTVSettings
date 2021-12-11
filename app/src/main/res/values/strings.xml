@@ -4,7 +4,7 @@
     <string name="title_activity_settings">设置</string>
 
     <string name="home_network_setting">网络设置</string>
-
+    <string name="launcher_title_tips">Current Selection</string>
     <string name="home_general_setting">电视设置</string>
     <string name="home_network_diagnosis">网络诊断</string>
     <string name="home_help">玩转电视</string>

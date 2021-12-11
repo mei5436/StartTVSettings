@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bestv.inputsource.LauncherItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/dimen_216px"
+        android:layout_height="@dimen/dimen_216px"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector_source_grid"
+        android:contentDescription="@null"
+        android:focusable="true"
+        android:padding="@dimen/dimen_20px"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_20px"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:maxWidth="@dimen/dimen_216px"
+        android:singleLine="true"
+        android:textSize="@dimen/common_36px_text_size" />
+
+    <TextView
+        android:id="@+id/title_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:text="@string/launcher_title_tips"
+        android:textSize="@dimen/common_24px_text_size"
+        android:visibility="gone" />
+</com.bestv.inputsource.LauncherItemView>

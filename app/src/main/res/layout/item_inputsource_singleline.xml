@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bestv.inputsource.SourceItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_200px"
+    android:layout_height="@dimen/dimen_268px"
+    android:background="@drawable/selector_source_grid"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_15px"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/dimen_84px" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_24px"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/common_28px_text_size" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_16px"
+        android:includeFontPadding="false"
+        android:textColor="@color/input_source_state_color"
+        android:textSize="@dimen/common_24px_text_size" />
+</com.bestv.inputsource.SourceItemView>
